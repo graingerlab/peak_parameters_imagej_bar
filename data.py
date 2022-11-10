@@ -143,7 +143,7 @@ class Data:
         maxAmplitude = np.amax(rangeAmplitude)
         stdevAmplitude = np.std(rangeAmplitude)
 
-        return (rangeAmplitude, meanAmplitude, minAmplitude, maxAmplitude, stdevAmplitude)
+        return (meanAmplitude, minAmplitude, maxAmplitude, stdevAmplitude)
 
 
     def plot_trace(self):
