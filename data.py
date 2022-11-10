@@ -133,7 +133,7 @@ class Data:
         # ----------------------#
 
         self.trace_amplitude_parameters = self.calculate_trace_amplitude(self.trace_maxima_y, self.trace_minima_y)
-        self.trace_summary = TraceSummary(self.peak_freq_sec, self.trace_amplitude_parameters[0], self.peak_to_peak_interval_mean, self.peak_to_peak_interval_var)
+        self.trace_summary = TraceSummary(self.peak_freq_sec, self.trace_amplitude_parameters[1], self.peak_to_peak_interval_mean, self.peak_to_peak_interval_var)
 
 
     def calculate_trace_amplitude(self, a, b):
