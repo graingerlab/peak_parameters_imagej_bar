@@ -99,7 +99,7 @@ def normalize_mean_value(arr):
     target = arr[0]
 
     for i in range(len(arr)):
-        arr[i] = target/arr[i]
+        arr[i] = arr[i]/target
 
     return arr
 
